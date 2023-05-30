@@ -11,6 +11,7 @@ public class TreeFactory {
         if (result == null) {
             result = new TreeType(name, color, otherTreeData);
             treeTypes.put(name, result);
+            System.out.println( "Nuevo flyweight agregado " + name );
         }
         return result;
     }

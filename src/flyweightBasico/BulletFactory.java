@@ -1,4 +1,5 @@
 package flyweightBasico;
+
 import java.util.*;
 import java.awt.*;
 
@@ -9,6 +10,7 @@ public class BulletFactory {
 		if( result == null ) {
 			result = new BulletType( name, color, size);
 			bulletTypes.put(name, result);
+			System.out.println( "Nuevo flyweight agregado " + name );
 		}
 		return result;
 	}
