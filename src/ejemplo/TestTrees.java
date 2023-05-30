@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class TestTrees {
 	static int CANVAS_SIZE = 800;
-    static int TREES_TO_DRAW = 1000;
+    static int TREES_TO_DRAW = 1000000;
     static int TREE_TYPES = 2;
     
     public static void main(String[] args) {

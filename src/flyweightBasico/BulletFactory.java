@@ -8,7 +8,7 @@ public class BulletFactory {
 	public static BulletType getBulletType( String name, Color color, int size ) {
 		BulletType result = bulletTypes.get( name );
 		if( result == null ) {
-			result = new BulletType( name, color, size);
+			result = new BulletType( name, color, size );
 			bulletTypes.put(name, result);
 			System.out.println( "Nuevo flyweight agregado " + name );
 		}

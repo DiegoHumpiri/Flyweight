@@ -1,5 +1,4 @@
 package flyweightBasico;
-import java.awt.*;
 
 public class Bullet {
 	private int x;
@@ -9,8 +8,5 @@ public class Bullet {
 		this.x = x;
 		this.y = y;
 		this.type = type;
-	}
-	public void draw( Graphics g) {
-		type.draw( g, x, y );
 	}
 }

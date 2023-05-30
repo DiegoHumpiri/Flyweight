@@ -11,10 +11,4 @@ public class BulletType {
 		this.color = color;
 		this.size = size;
 	}
-	
-	public void draw( Graphics g, int x, int y ) {
-	
-		g.setColor( color );
-		g.fillOval( x, y, size * 2, size );
-	}
 }
